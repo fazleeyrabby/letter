@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="{{asset('assets/frontend/')}}/css/style.css">
+    <title>Project One</title>
+</head>
+<body>
+<div id="home">
+    <div id="menu-bar">
+        <div id="menu" onclick="onClickMenu()">
+            <div id="bar1" class="bar"></div>
+            <div id="bar2" class="bar"></div>
+            <div id="bar3" class="bar"></div>
+        </div>
+        <ul class="nav" id="nav">
+            <li><a href="{{route('front')}}">Home</a></li>
+            <li><a href="{{route('subscribe')}}">FAQs</a></li>
+            <li><a href="{{route('subscribe')}}">Subscribe</a></li>
+            <li><a href="{{route('subscribe')}}">Resources</a></li>
+            <li><a href="{{route('subscribe')}}">Our Team</a></li>
+            <li><a href="{{route('subscribe')}}">Archives</a></li>
+            <li><a href="{{route('subscribe')}}">Member</a></li>
+            <li><a href="{{route('subscribe')}}">Contact Us</a></li>
+        </ul>
+    </div>
+    <div class="menu-bg" id="menu-bg"></div>
+</div>
+
+<div class="hero">
+    <h1>In the mountains of mutual funds
+        and ocean of ETFs...</h1>
+
+    <h2>How do you make the best choices
+        for YOU</h2>
+</div>
+
+<div class="card-area">
+    <div class="card" style="width: 22rem;">
+        <img class="card-img-top" src="{{asset('assets/frontend/')}}/img/man-wearing-white-and-blue-pinstriped-dress-shirt-holding-936135.jpg" alt="Card image cap">
+        <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+    </div>
+
+    <div class="card" style="width: 22rem;">
+        <img class="card-img-top" src="{{asset('assets/frontend/')}}/img/person-holding-silver-iphone-7-887751.jpg" alt="Card image cap">
+        <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+    </div>
+
+    <div class="card" style="width: 22rem;">
+        <img class="card-img-top" src="{{asset('assets/frontend/')}}/img/business-charts-commerce-computer-265087.jpg" alt="Card image cap">
+        <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+    </div>
+</div>
+
+<div class="main-body">
+    <div class="side-1">
+        <div class="side1">
+            <div class="heading-area">
+                <img src="{{asset('assets/frontend/')}}/img/monyletter pic.PNG" alt="">
+                <h4>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore, placeat!</h4>
+            </div>
+            <div class="paragraph">
+                <div class="para1">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum beatae assumenda, quasi consectetur nostrum odio ratione totam dolorum quidem illum blanditiis aut vero non incidunt asperiores, deleniti veniam doloremque minima sunt consequuntur! Repellendus vel quisquam id magnam incidunt possimus eveniet excepturi est adipisci beatae, dolorum asperiores quod facilis pariatur nam culpa qui quis tempore corrupti nostrum aperiam rem sapiente! Corrupti voluptatibus architecto animi ea culpa cum sit soluta exercitationem nulla vero, odit esse quae sequi praesentium saepe ducimus, corporis quas pariatur commodi harum quam. Vitae ex saepe nihil corporis, eveniet quaerat sapiente unde mollitia fugiat nisi, laborum quod cum repudiandae?</p>
+                    <div class="table-area">
+                        <table class="table">
+                            <div class="table-title">Market Trend</div>
+                            <tbody>
+                            <tr>
+                                <td></td>
+                                <td>Trailing 12-Mo Trend</td>
+                                <td>Trailing 6-Mo Estimate</td>
+                            </tr>
+                            <tr>
+                                <td>Mark</td>
+                                <td>Otto</td>
+                                <td>@mdo</td>
+                            </tr>
+                            <tr>
+                                <td>Jacob</td>
+                                <td>Thornton</td>
+                                <td>@fat</td>
+                            </tr>
+                            <tr>
+                                <td>Larry</td>
+                                <td>the Bird</td>
+                                <td>@twitter</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="para2">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor neque quisquam impedit repellendus error rem, dolorum quas ipsum, maxime iure eligendi corrupti accusamus debitis expedita ducimus consectetur? Ad sed cupiditate totam libero dicta? Autem eveniet similique accusantium unde voluptatum, vero debitis ipsam. Vel ipsa omnis, iusto, molestiae odit neque odio, maiores voluptatum ratione tenetur dolorum? A dignissimos animi architecto, ratione voluptatem, vel nisi fugiat doloremque, laboriosam doloribus aliquam iusto fuga vitae similique sequi est maxime omnis earum. Aliquam iusto nisi eveniet error, quos nobis hic soluta fugiat quod consequuntur quidem perferendis? Distinctio quasi exercitationem necessitatibus? Dolor sit distinctio sunt expedita? ?</p>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="side-2">
+        <div class="side2-area">
+            <h2 class="headingside2">
+                Included in <br> every issue:
+            </h2>
+            <ul>
+                <li>Current Analysis</li>
+                <li>Fund scorecard and Recomendation</li>
+                <li><span>Conservative</span> , <span> Modarate</span>, and <span>Venturesome</span> funds
+                    suggested trades
+                </li>
+                <li>Domestic, International,Specialty,and Bond funds</li>
+                <li>Money Fund analysils</li>
+                <li>In-depth Fund Profile</li>
+            </ul>
+        </div>
+    </div>
+    <div class="side-3">
+        <h2>
+            <ul >
+                <li>Which investments
+                    are “in tune” with
+                    current investing
+                    conditions?
+                </li>
+                <li>
+                    Which ones are yesterday’s
+                    “shooting stars”?
+                </li>
+                <li>
+                    What funds should
+                    you be buying right
+                    now to take advntage
+                    of today’s profit
+                    opportunities?
+                </li>
+            </ul>
+        </h2>
+
+        <div class="side3-text">
+            <p>“Mutual funds are one of
+                the best investments ever
+                created because they’re
+                really cost-efficient and
+                very easy to invest in...”<br>
+                <span>—Dustin Woodward</span></p>
+        </div>
+
+    </div>
+</div>
+
+<div class="lastimg">
+
+    <div class="one">
+        <img class="one" src="{{asset('assets/frontend/')}}/img/monyletterpic.JPG" alt="">
+        <div class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#news">FAQs</a>
+            <a href="#contact">Contact</a>
+            <a href="#contact">Subscribe</a>
+            <a href="#contact">Experts</a>
+            <a href="#contact">Archives</a>
+            <p class="footer-text">Powered by &copy; Galayx Global IT</p>
+        </div>
+    </div>
+    <div class="two">
+        <img class="two" src="{{asset('assets/frontend/')}}/img/photo-of-a-woman-holding-an-ipad-761977.jpg" alt="">
+    </div>
+</div>
+
+
+<script src="{{asset('assets/frontend/')}}/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans">
+        <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="/css/style.css">
+        <title>Project One</title>
+    </head>
+<body>
+    
+    <div id="menu-bar">
+        <div id="menu" onclick="onClickMenu()">
+            <div id="bar1" class="bar"></div>
+            <div id="bar2" class="bar"></div>
+            <div id="bar3" class="bar"></div>  
+        </div>
+        <ul class="nav" id="nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="faqs.html">FAQs</a></li>
+            <li><a href="">Subscribe</a></li>
+            <li><a href="">Resources</a></li>
+            <li><a href="team.html">Our Team</a></li>
+            <li><a href="">Archives</a></li>
+            <li><a href="member.html">Member</a></li>
+            <li><a href="form.html">Contact Us</a></li>
+        </ul>
+    </div>
+    <div class="menu-bg" id="menu-bg"></div>
+
+
+    <section class="daily-email">
+        <div class="grid-container">
+            <div class="daily-email__inner">
+                <div class="daily-email__proposition js-daily-email__proposition">
+                    <form class="daily-email__form js-daily-email__form" data-segment-article-email-form-submit=""
+                        data-segment-subscribe-page-email-form-submit="" data-segment="homepage-email-form-submit"
+                        action="/cta/daily_email_subscribe" accept-charset="UTF-8" data-remote="true" method="post"><input
+                            name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token"
+                            value="xvIKX3dL0GSnzqt6qrL31wMrr+7TucSj4Zp6d750d9I=" />
+                        <h1>Get us in your inbox</h1>
+                        <p>Not junk! Just some great news.</p>
+    
+    
+                        <div class="daily-email__inputs">
+                            <input type="hidden" name="email_language" value="en">
+                            <input type="hidden" name="blog" value="1">
+                            <input type="email" name="email_address" class="daily-email__field js-daily-email__field"
+                                placeholder="Email Address" value="">
+                            <button type="submit" class="daily-email__button js-daily-email__button">Subscribe</button>
+                        </div>
+                    </form>
+                </div>
+    
+                <div class="daily-email__device-holder">
+                    <div class="daily-email__device">
+                        <div class="daily-email__example">
+                            <img lazy="true"
+                                src="https://i.pinimg.com/236x/da/73/34/da733463ec76ec996c85452d74215dab--journal-app-fade-in.jpg" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="/js/main.js"></script>
+</body>
+</html>
